@@ -1,3 +1,91 @@
-*{
-    
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(243, 241, 255);
+}
+
+.container {
+    padding: 30px;
+    background-color: #FFFFFF;
+    width: 870px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* Top  Blog Styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:26px
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blog-author {
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
 }
